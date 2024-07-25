@@ -1,0 +1,98 @@
+.Influencer-navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 100px 0 100px;
+}
+nav ul li {
+    list-style: none;
+}
+.actor-tag{
+    display: flex;
+    
+}
+.actor-tag a{
+    text-decoration: none;
+    margin: 0  50px;
+}
+.Influencer-main-camera-Container{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 100px 0 100px;
+}
+.Influencer-main-camera-context h1{
+font-size: 50px;
+}
+.Influencer-main-camera-context p{
+    font-size: large;
+}
+.Influencer-main-camera-context button{
+    border: none;
+    background-color: brown;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.main-camera--img{
+    border: 1px solid;
+    border-radius: 1000px;
+}
+.Influencer-icon-bar-container{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 100px 0 100px;
+    padding: 20px;
+    border-top: 1px solid;
+    border-bottom:  1px solid;
+}
+.img-heading{
+    text-align: center;
+    margin: 40px 0;
+}
+.Popular-collection-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:20px 100px 0 100px;
+    gap: 20px;
+    border-radius: 5px;
+}
+.Popular-collection-context{
+    background-color:antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+}
+.Popular-collection-text{
+    margin: 5px 0;
+    font-size: 24px;
+    color: black;
+}
+.see-more{
+   text-align: right;
+   margin:10px 120px 10px 0;
+   font-size: 30px;
+   color:tomato;
+}
+.Featured-products-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:20px 100px 0 100px;
+    margin-top: 20px;
+}
+.Featured-products-container h1{
+    font-size: 60px;
+}
+.Featured-products-container button{
+    background-color: tomato;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.footer-container{
+    background-color: black;
+    margin:20px 100px 0 100px;
+}
+.footer-context{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
