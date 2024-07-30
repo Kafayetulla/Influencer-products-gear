@@ -96,3 +96,40 @@ font-size: 50px;
     color: white;
     padding: 50px;
 }
+/* small device  */
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:576px) {
+    .Influencer-navbar-container,.actor-tag,.Influencer-main-camera-Container,.Influencer-icon-bar-container{
+        flex-direction: column;
+        
+    }
+    .Influencer-navbar-container h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    .Featured-products-container{
+        display: block;
+    }
+    .Popular-collection-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Featured-products-container img{
+        width: 100%;
+    }
+    .Featured-products-container h1{
+        font-size: 30px;
+    }
+    .main-camera--img{
+        margin-top: 10px;
+    }
+    .main-camera--img img{
+        
+        width: 100%;
+    }
+    .footer-container{
+       margin: 10px auto;
+    }
+}
