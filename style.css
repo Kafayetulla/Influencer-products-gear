@@ -77,6 +77,9 @@ font-size: 50px;
     margin:20px 100px 0 100px;
     margin-top: 20px;
 }
+#Popular-collection-context{
+    display:none;
+}
 .Featured-products-container h1{
     font-size: 60px;
 }
@@ -131,5 +134,29 @@ font-size: 50px;
     }
     .footer-container{
        margin: 10px auto;
+    }
+}
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .Influencer-navbar-container,.actor-tag,.Influencer-main-camera-Container,.Influencer-icon-bar-container{
+        flex-direction: column;
+        
+    }
+    .actor-tag,.Influencer-navbar-container h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    .main-camera--img img{
+        width: 100%;
+    }
+    .Influencer-icon-bar-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .Popular-collection-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #Popular-collection-context{
+        display: block;
     }
 }
